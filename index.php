@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cisco Switches - Soluciones de Red Profesionales</title>
+     <meta name="description" content="Venta de switches Cisco empresariales. Soluciones de red profesionales para empresas, data centers y oficinas. Equipos originales y soporte especializado.">
+    <meta name="keywords" content="switches cisco, venta de switches cisco, switches de red, cisco networking, switches empresariales, equipos cisco">
+    <meta name="author" content="DS3 Comunicaciones">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+   
+</head>
+<body>
+   
+    <div class="header-top">
+        <div class="container">
+            <div class="row justify-content-between align-items-center text-white">
+                <div class="col-auto d-flex gap-3 flex-wrap">
+                    <a href="tel:+5133334339"><i class="bi bi-telephone-fill"></i> +51 3-3334339</a>
+                    <a href="tel:+51994428965"><i class="bi bi-telephone-fill"></i> +51 994-428965</a>
+                    <a href="mailto:netperul00@hotmail.com"><i class="bi bi-envelope-fill"></i> netperul00@hotmail.com</a>
+                </div>
+                <div class="col-auto d-flex gap-3 align-items-center">
+                    <i class="bi bi-geo-alt-fill"></i> <span>Lima, PERÚ</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="Logo1.jpg" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio"><i class="bi bi-diagram-2 px-2"></i>Switches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ciscobusiness"><i class="bi bi-building px-2"></i>Cisco Business</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#industrial"><i class="bi bi-building px-2"></i>Industrial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto"><i class="bi bi-telephone px-2"></i>Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   
+    <section class="hero-section" id="inicio">
+        <div class="container">
+            <div class="row align-items-center" style="text-align: center;">
+                <div class="col-lg-12">
+                    <div class="hero-content">
+                        <h1><i class="bi bi-lightning-charge"></i>Soluciones de Red Profesionales</h1>
+                        <p>Switches Cisco de última generación para empresas que demandan confiabilidad, velocidad y seguridad en sus infraestructuras de red.</p>
+                        <div class="hero-buttons">
+                            <a href="#productos" class="btn-primary-custom">
+                                <i class="bi bi-shop"></i> Ver Productos
+                            </a>
+                            <a href="#contacto" class="btn-secondary-custom">
+                                <i class="bi bi-chat-dots"></i> Cotizar Ahora
+                            </a>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <i class="bi bi-speedometer2" style="font-size: 24px;"></i>
+                                <div>
+                                    <div class="stat-number">500+</div>
+                                    <div class="stat-label">Clientes Satisfechos</div>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <i class="bi bi-star-fill" style="font-size: 24px;"></i>
+                                <div>
+                                    <div class="stat-number">99.9%</div>
+                                    <div class="stat-label">Disponibilidad</div>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <i class="bi bi-lightning-charge" style="font-size: 24px;"></i>
+                                <div>
+                                    <div class="stat-number">24/7</div>
+                                    <div class="stat-label">Soporte Técnico</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="product-section" id="productos">
+        <div class="container">
+            <h2 class="product-section-title">Producto Destacado</h2>
+            
+            <div class="product-details">
+                <!-- Product Images -->
+                <div class="product-image-container">
+                    <div class="product-image-main">
+                        <img id="mainImage" src="sw1.png?w=600&h=400&fit=crop" alt="Cisco Catalyst Switch" loading="lazy">
+                        <div class="zoom-lens"></div>
+                        <div class="zoom-preview">
+                            <img id="zoomImage" src="sw11.png?w=900&h=600&fit=crop" alt="Zoom Preview" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="product-thumbnails">
+                        <img src="sw11.png?w=200&h=200&fit=crop" alt="View 1" class="active" onclick="changeImage(this)" loading="lazy">
+                        <img src="sw22.png?w=200&h=200&fit=crop" alt="View 2" onclick="changeImage(this)" loading="lazy">
+                        <img src="sw33.png?w=200&h=200&fit=crop" alt="View 3" onclick="changeImage(this)" loading="lazy">
+                        <img src="sw22.png?w=200&h=200&fit=crop" alt="View 4" onclick="changeImage(this)" loading="lazy">
+                    </div>
+                </div>
+
+                <!-- Product Info -->
+                <div class="product-info">
+                    <div class="breadcrumb-custom" style="padding: 0 0 3px 0;margin-bottom: 20px;">
+                            <a href="#" style="color: #06b6d4;font-weight: 500;text-decoration: none;">Inicio</a> / <a href="#" style="color: #06b6d4;font-weight: 500;text-decoration: none;">Switches</a> / <span style="color: #6b7280;">C9200L-24P</span>
+                        </div>
+                    <h2>Cisco Switch Catalyst C9200L</h2>
+                     <p class="product-sku" style="color:#6b7280;"><strong>SKU:</strong> C9200L-24P-4G-E</p>
+                    <div class="product-rating">
+                            <span class="stars" style="color: #fbbf24;">★★★★★</span>
+                            <span class="rating-count" style="color:#6b7280;">(124 reseñas)</span>
+                        </div>
+
+                    <p style="color: #64748b; font-size: 16px; line-height: 1.6;">Switch capa L3 full profesional con 24 puertos Gigabit PoE+ (370W), 04 puertos para fibra SFP y tecnología de stacking avanzada.</p>
+                    
+                    <div class="product-price">US$ 1,979</div>
+
+                    <div class="specs-section">
+                        <h3>Especificaciones Técnicas:</h3>
+                        <div class="specs-list">
+                            <div class="spec-item">
+                                <strong>Tipo de Switch</strong>
+                                <span>Capa L3 full (Layer 3)</span>
+                            </div>
+                            <div class="spec-item">
+                                <strong>Puertos Disponibles</strong>
+                                <span>24 Puertos PoE+ Gigabit</span>
+                            </div>
+                            <div class="spec-item">
+                                <strong>Potencia PoE+</strong>
+                                <span>370W total</span>
+                            </div>
+                            <div class="spec-item">
+                                <strong>Puertos SFP</strong>
+                                <span>04 puertos para fibra</span>
+                            </div>
+                            <div class="spec-item">
+                                <strong>Ancho de Banda</strong>
+                                <span>Switching: 56 Gbps</span>
+                            </div>
+                            <div class="spec-item">
+                                <strong>Capacidad de Forwarding</strong>
+                                <span>41.67 Mpps</span>
+                            </div>
+                            <div class="spec-item">
+                                <strong>Memoria DRAM</strong>
+                                <span>4 GB</span>
+                            </div>
+                            <div class="spec-item">
+                                <strong>Flash Memory</strong>
+                                <span>8 GB</span>
+                            </div>
+                            <div class="spec-item">
+                                <strong>Soporte de Stacking</strong>
+                                <span>Hasta 8 equipos</span>
+                            </div>
+                            <div class="spec-item">
+                                <strong>Protocolos Soportados</strong>
+                                <span>DHCP, EIGRP, OSPF, IGMP</span>
+                            </div>
+                            <div class="spec-item">
+                                <strong>VLAN IDs</strong>
+                                <span>4096</span>
+                            </div>
+                            <div class="spec-item">
+                                <strong>Montaje</strong>
+                                <span>Rack 1U</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="action-buttons">
+                        <button class="buy-btn">
+                            <i class="bi bi-cart"></i> Comprar Ahora
+                        </button>
+                        <button class="quote-btn">
+                            <i class="bi bi-envelope"></i> Solicitar Cotización
+                        </button>
+                    </div>
+
+                    <div style="background: #f0f9ff; padding: 20px; border-radius: 12px; border-left: 4px solid #06b6d4; margin-top: 20px;">
+                        <h4 style="color: var(--primary-dark); font-size: 14px; font-weight: 600; margin-bottom: 10px;">
+                            <i class="bi bi-file-earmark-pdf"></i> Descargas Disponibles
+                        </h4>
+                        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                            <a href="#" style="color: #06b6d4; font-weight: 600; text-decoration: none; font-size: 13px;">
+                                <i class="bi bi-download"></i> Ficha Técnica
+                            </a>
+                            <a href="#" style="color: #06b6d4; font-weight: 600; text-decoration: none; font-size: 13px;">
+                                <i class="bi bi-download"></i> Manual
+                            </a>
+                            <a href="#" style="color: #06b6d4; font-weight: 600; text-decoration: none; font-size: 13px;">
+                                <i class="bi bi-download"></i> Especificaciones
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-section">
+        <div class="container">
+            <h2 class="featured-title">Otros Productos Disponibles</h2>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="product-card">
+                        <div class="product-card-image">
+                            <span class="card-badge">Stock</span>
+                            <img src="sw22.png" alt="Catalyst 9300" loading="lazy">
+                        </div>
+                        <div class="product-card-info">
+                            <h4 class="product-card-name">Cisco Catalyst 9300</h4>
+                            <p class="product-card-description">Switch modular empresarial con capacidades avanzadas de switching y enrutamiento.</p>
+                            <div class="product-card-specs">
+                                <span class="spec-tag">48 Puertos</span>
+                                <span class="spec-tag">PoE+</span>
+                                <span class="spec-tag">L3</span>
+                            </div>
+                            <div class="product-card-footer">
+                                <span class="product-card-price">$2,850</span>
+                                <button class="card-btn"><i class="bi bi-cart"></i> Ver</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="product-card">
+                        <div class="product-card-image">
+                            <span class="card-badge">Stock</span>
+                            <img src="sw11.png" alt="Catalyst 9100" loading="lazy">
+                        </div>
+                        <div class="product-card-info">
+                            <h4 class="product-card-name">Cisco Catalyst 9100</h4>
+                            <p class="product-card-description">Access switches diseñados para sucursales y oficinas remotas de alto rendimiento.</p>
+                            <div class="product-card-specs">
+                                <span class="spec-tag">24 Puertos</span>
+                                <span class="spec-tag">PoE+</span>
+                                <span class="spec-tag">Compacto</span>
+                            </div>
+                            <div class="product-card-footer">
+                                <span class="product-card-price">$1,650</span>
+                                <button class="card-btn"><i class="bi bi-cart"></i> Ver</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="product-card">
+                        <div class="product-card-image">
+                            <span class="card-badge">Stock</span>
+                            <img src="sw33.png" alt="Catalyst 9500X" loading="lazy">
+                        </div>
+                        <div class="product-card-info">
+                            <h4 class="product-card-name">Cisco Catalyst 9500X</h4>
+                            <p class="product-card-description">Switch core de alta disponibilidad para centros de datos y redes empresariales.</p>
+                            <div class="product-card-specs">
+                                <span class="spec-tag">96 Puertos</span>
+                                <span class="spec-tag">400G</span>
+                                <span class="spec-tag">Core</span>
+                            </div>
+                            <div class="product-card-footer">
+                                <span class="product-card-price">$5,200</span>
+                                <button class="card-btn"><i class="bi bi-cart"></i> Ver</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="product-card">
+                        <div class="product-card-image">
+                            <span class="card-badge">Stock</span>
+                            <img src="sw11.png" alt="Meraki MS210" loading="lazy">
+                        </div>
+                        <div class="product-card-info">
+                            <h4 class="product-card-name">Cisco Meraki MS210</h4>
+                            <p class="product-card-description">Switch manageable en cloud para pequeñas y medianas empresas con gestión centralizada.</p>
+                            <div class="product-card-specs">
+                                <span class="spec-tag">48 Puertos</span>
+                                <span class="spec-tag">Cloud</span>
+                                <span class="spec-tag">SMB</span>
+                            </div>
+                            <div class="product-card-footer">
+                                <span class="product-card-price">$1,200</span>
+                                <button class="card-btn"><i class="bi bi-cart"></i> Ver</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="product-card">
+                        <div class="product-card-image">
+                            <span class="card-badge">Stock</span>
+                            <img src="sw22.png" alt="Catalyst 9200L" loading="lazy">
+                        </div>
+                        <div class="product-card-info">
+                            <h4 class="product-card-name">Cisco Catalyst 9200L</h4>
+                            <p class="product-card-description">Switch de acceso modular con soporte para PoE+ integrado y stacking avanzado.</p>
+                            <div class="product-card-specs">
+                                <span class="spec-tag">48 Puertos</span>
+                                <span class="spec-tag">PoE+</span>
+                                <span class="spec-tag">Stack</span>
+                            </div>
+                            <div class="product-card-footer">
+                                <span class="product-card-price">$2,100</span>
+                                <button class="card-btn"><i class="bi bi-cart"></i> Ver</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="product-card">
+                        <div class="product-card-image">
+                            <span class="card-badge">Stock</span>
+                            <img src="sw33.png" alt="Catalyst 2960X" loading="lazy">
+                        </div>
+                        <div class="product-card-info">
+                            <h4 class="product-card-name">Cisco Catalyst 2960X</h4>
+                            <p class="product-card-description">Switch L2 confiable para redes de acceso en empresas de todos los tamaños.</p>
+                            <div class="product-card-specs">
+                                <span class="spec-tag">48 Puertos</span>
+                                <span class="spec-tag">Gigabit</span>
+                                <span class="spec-tag">L2</span>
+                            </div>
+                            <div class="product-card-footer">
+                                <span class="product-card-price">$850</span>
+                                <button class="card-btn"><i class="bi bi-cart"></i> Ver</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="features-section" id="caracteristicas">
+        <div class="container">
+            <h2 class="features-title">¿Por qué elegir nuestros productos?</h2>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <h3>Confiabilidad Garantizada</h3>
+                        <p>Productos originales Cisco con garantía completa y soporte técnico profesional.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-lightning-charge"></i>
+                        </div>
+                        <h3>Alto Desempeño</h3>
+                        <p>Switches de última generación con velocidades de procesamiento superiores.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-arrow-repeat"></i>
+                        </div>
+                        <h3>Soporte Técnico 24/7</h3>
+                        <p>Equipo de expertos disponible para resolver cualquier problema en tiempo real.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-box-seam"></i>
+                        </div>
+                        <h3>Instalación Profesional</h3>
+                        <p>Servicio completo de instalación y configuración en tus instalaciones.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-credit-card"></i>
+                        </div>
+                        <h3>Precios Competitivos</h3>
+                        <p>Ofertas especiales y planes de financiamiento para empresas.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-globe"></i>
+                        </div>
+                        <h3>Envío Internacional</h3>
+                        <p>Entrega rápida y segura a cualquier parte del mundo con tracking.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-section">
+                        <a href=""><img src="Logo1.jpg" loading="lazy"></a>
+                        <p style="font-size: 14px; color: #94a3b8; margin-bottom: 15px;padding-top:15px;">Distribuidor oficial de Cisco Switches con servicio de calidad y soporte técnico especializado.</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-section">
+                        <h4>Categorías</h4>
+                        <ul>
+                            <li><a href="#">Switches Catalyst</a></li>
+                            <li><a href="#">Switches Meraki</a></li>
+                            <li><a href="#">Módulos y Accesorios</a></li>
+                            <li><a href="#">Fibra Óptica</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-section">
+                        <h4>Soporte</h4>
+                        <ul>
+                            <li><a href="#">Centro de Descargas</a></li>
+                            <li><a href="#">Documentación Técnica</a></li>
+                            <li><a href="#">Garantía y Servicio</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-section">
+                        <h4>Contacto</h4>
+                        <ul>
+                            <li><a href="tel:+51943344339"><i class="bi bi-telephone"></i> +51 (996) 53-3223</a></li>
+                            <li><a href="mailto:netperu100@hotmail.com"><i class="bi bi-envelope"></i> netperu100@hotmail.com</a></li>
+                            <li><i class="bi bi-geo-alt"></i> Lima, Perú</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 DS3 Comunicaciones. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+       
+        function changeImage(element) {
+            const mainImage = document.getElementById('mainImage');
+            const zoomImage = document.getElementById('zoomImage');
+            const src = element.src;
+            
+            mainImage.src = src.replace('200&h=200', '600&h=400');
+            zoomImage.src = src.replace('200&h=200', '900&h=600');
+            
+            document.querySelectorAll('.product-thumbnails img').forEach(img => {
+                img.classList.remove('active');
+            });
+            element.classList.add('active');
+        }
+
+        
+        const productImageMain = document.querySelector('.product-image-main');
+        const zoomLens = document.querySelector('.zoom-lens');
+        const zoomPreview = document.querySelector('.zoom-preview');
+        const mainImage = document.getElementById('mainImage');
+        const zoomImage = document.getElementById('zoomImage');
+
+        productImageMain.addEventListener('mousemove', function(e) {
+            const rect = productImageMain.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+
+            const lensSize = 180;
+            const lensX = Math.max(0, Math.min(x - lensSize / 2, rect.width - lensSize));
+            const lensY = Math.max(0, Math.min(y - lensSize / 2, rect.height - lensSize));
+
+            zoomLens.style.left = lensX + 'px';
+            zoomLens.style.top = lensY + 'px';
+
+            const zoom = 2;
+            const scrollX = (lensX / rect.width) * (zoomImage.naturalWidth - 350);
+            const scrollY = (lensY / rect.height) * (zoomImage.naturalHeight - 350);
+
+            zoomImage.style.transform = `translate(-${scrollX}px, -${scrollY}px)`;
+            
+          
+            zoomLens.style.display = 'block';
+            zoomPreview.style.display = 'block';
+        });
+
+        productImageMain.addEventListener('mouseleave', function() {
+            zoomLens.style.display = 'none';
+            zoomPreview.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
