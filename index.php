@@ -547,5 +547,7 @@
             zoomPreview.style.display = 'none';
         });
     </script>
+    //cambio 
 </body>
+
 </html>
